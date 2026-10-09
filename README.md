@@ -55,19 +55,30 @@ O planejamento do projeto segue o framework **Scrum**, adaptado para uma equipe 
 
 - **Product Backlog:** gerenciado via [GitHub Issues](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues) do repositório, com a etiqueta `product-backlog`.
   - Link direto: https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Aproduct-backlog
-- **Quadro Kanban:** [GitHub Projects — "Desenvolvendo para o Futuro - Quadro do Projeto"](https://github.com/users/Dieguin77/projects/2), com colunas **A Fazer**, **Em andamento**, **Em revisão** e **Concluído**, e campos de Prioridade, Sprint e Estimativa. Há uma visualização filtrada específica para o Sprint 1.
+- **Quadro Kanban:** [GitHub Projects — "Desenvolvendo para o Futuro - Quadro do Projeto"](https://github.com/users/Dieguin77/projects/2), existência e configuração confirmadas em sessão autenticada do GitHub. Colunas de **Status**: A Fazer, Em andamento, Em revisão e Concluído. Campos adicionais: Prioridade (Alta/Média/Baixa), Sprint (Sprint 1 / Backlog futuro) e Estimativa (pontos).
 - **Sprint Backlog do Sprint 1:** itens com a etiqueta `sprint-1`.
   - Link direto: https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Asprint-1
 
-### Sprint 1
+## Planejamento do Projeto — Sprint 01
 
-- **Datas (proposta inicial, a confirmar pela equipe):** 08/10/2026 a 15/10/2026 (uma semana).
-- **Sprint Goal:** ao final da semana, a equipe deverá ter uma base consistente para produzir a história em quadrinhos — narrativa organizada, personagens definidos e sequência narrativa planejada.
-- **Itens selecionados:**
-  - [#1 — Definir escopo, objetivos e critérios de sucesso da história](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/1)
-  - [#2 — Construir e validar a premissa e a sinopse da narrativa](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/2)
-  - [#3 — Definir os personagens, características e papéis na história](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/3)
-  - [#4 — Organizar a narrativa em início, desenvolvimento, conflito, solução e conclusão](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/4)
+- **Período proposto:** 08/10/2026 a 15/10/2026 (sete dias corridos); datas e capacidade ainda devem ser confirmadas pela equipe.
+- **Sprint Goal:** estabelecer uma base narrativa validada para a história em quadrinhos, definindo seu escopo, a sinopse, os personagens e a sequência inicial dos acontecimentos.
+- **Resultado esperado:** escopo e sinopse revisados, personagens definidos e estrutura narrativa preparada para orientar o roteiro. Os documentos existentes são rascunhos; nenhuma aprovação da equipe foi confirmada.
+- **Sprint Backlog:** Issues abertas com a etiqueta `sprint-1`: [lista filtrada do Sprint 01](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Asprint-1).
+- **Gerenciamento:** [GitHub Project #2](https://github.com/users/Dieguin77/projects/2) — quadro confirmado nesta sessão. As Issues #1–#4 estão cadastradas no quadro com `Sprint = Sprint 1`, `Prioridade = Alta` e `Status = A Fazer`.
+
+| Issue | Trabalho | Prioridade | Estimativa | Responsável sugerido | Dependências |
+| --- | --- | --- | --- | --- | --- |
+| [#1](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/1) | Definir escopo, objetivos e critérios de sucesso | Alta | 2 pontos | Diego; validação de José e William | Nenhuma |
+| [#2](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/2) | Construir e validar premissa e sinopse | Alta | 3 pontos | José; revisão de Diego e William | #1 |
+| [#3](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/3) | Definir personagens, características e papéis | Alta | 3 pontos | William; revisão de José e Diego | #2 |
+| [#4](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues/4) | Organizar início, desenvolvimento, conflito, solução e conclusão | Alta | 3 pontos | José; revisão de Diego e William | #2 e #3 |
+
+As quatro Issues existentes somam **11 pontos** e já incluem descrição, critérios de aceitação, dependências e responsáveis sugeridos. O estado verificável no GitHub é **aberta**, e o status confirmado no quadro Kanban (Project #2) para as quatro é **A Fazer** — nenhuma foi iniciada ainda. As caixas dos critérios de aceitação permanecem desmarcadas, e os comentários apontam os documentos correspondentes como rascunhos pendentes de revisão. Não considerar essas tarefas concluídas sem validação dos integrantes.
+
+### Definition of Done do Sprint
+
+Uma Issue só deve ser movida para **Concluído** no quadro (Project #2) depois que o documento correspondente estiver no repositório, todos os critérios de aceitação estiverem atendidos, e a revisão e aprovação da equipe estiverem registradas.
 
 ### Prioridades da equipe
 
