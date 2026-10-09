@@ -55,9 +55,11 @@ O planejamento do projeto segue o framework **Scrum**, adaptado para uma equipe 
 
 - **Product Backlog:** gerenciado via [GitHub Issues](https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues) do repositório, com a etiqueta `product-backlog`.
   - Link direto: https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Aproduct-backlog
-- **Quadro Kanban:** [GitHub Projects — "Desenvolvendo para o Futuro - Quadro do Projeto"](https://github.com/users/Dieguin77/projects/2), existência e configuração confirmadas em sessão autenticada do GitHub. Colunas de **Status**: A Fazer, Em andamento, Em revisão e Concluído. Campos adicionais: Prioridade (Alta/Média/Baixa), Sprint (Sprint 1 / Backlog futuro) e Estimativa (pontos).
-- **Sprint Backlog do Sprint 1:** itens com a etiqueta `sprint-1`.
-  - Link direto: https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Asprint-1
+- **Quadro Kanban (local de gerenciamento do Sprint):** [GitHub Projects — "Desenvolvendo para o Futuro - Quadro do Projeto"](https://github.com/users/Dieguin77/projects/2), público, existência e configuração confirmadas em sessão autenticada do GitHub. Colunas de **Status**: A Fazer, Em andamento, Em revisão e Concluído. Campos adicionais: Prioridade (Alta/Média/Baixa), Sprint (Sprint 1 / Backlog futuro) e Estimativa (pontos).
+  - Link direto: https://github.com/users/Dieguin77/projects/2
+- **Sprint Backlog do Sprint 1:** itens com a etiqueta `sprint-1`, também disponíveis como view filtrada ("Sprint 1") dentro do Project #2.
+  - Link (Issues filtradas): https://github.com/Dieguin77/desenvolvendo-para-o-futuro/issues?q=is%3Aissue+is%3Aopen+label%3Asprint-1
+  - Link (view do Project filtrada por Sprint 1): https://github.com/users/Dieguin77/projects/2/views/2
 
 ## Planejamento do Projeto — Sprint 01
 
